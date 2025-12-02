@@ -16,11 +16,11 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <MapPinIcon className="h-6 w-6 text-gray-500" />
                   <p className="text-gray-500">
-                    123 Everest Lane
+                    1 Yonge St.
                     <br />
-                    Summit City, PE 98765
+                    Toronto, M5E 1E5
                     <br />
-                    United States
+                    Dominion of Canada
                   </p>
                 </div>
               </div>
