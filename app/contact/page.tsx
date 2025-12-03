@@ -29,7 +29,7 @@ export default function ContactPage() {
                 <div className="flex items-center gap-4">
                   <MailIcon className="h-6 w-6 text-gray-500" />
                   <a href="mailto:contact@everestbrokers.com" className="text-blue-600 hover:underline">
-                    contact@everestbrokers.com
+                    contact@everest-brokers.ca
                   </a>
                 </div>
               </div>
