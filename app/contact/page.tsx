@@ -38,7 +38,7 @@ export default function ContactPage() {
                 <div className="flex items-center gap-4">
                   <PhoneIcon className="h-6 w-6 text-gray-500" />
                   <a href="tel:+1234567890" className="text-blue-600 hover:underline">
-                    +1 (234) 567-890
+                    +1 (248)-434-5508
                   </a>
                 </div>
               </div>
