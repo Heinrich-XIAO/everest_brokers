@@ -10,7 +10,7 @@ export default function Navigation() {
         <span className="sr-only">Everest Brokers</span>
       </Link>
       <nav className="ml-auto hidden lg:flex gap-4 sm:gap-6">
-        <Link href="/" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/#services" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
           Services
         </Link>
         <Link href="/contact" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
