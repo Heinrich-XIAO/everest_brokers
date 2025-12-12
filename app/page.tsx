@@ -43,46 +43,52 @@ export default function Component() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <BarChartIcon className="h-6 w-6" />
-                    Investment Advisory
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    Our expert advisors provide personalized investment strategies to help you grow your wealth.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <DollarSignIcon className="h-6 w-6" />
-                    Wealth Management
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    We offer comprehensive wealth management services to protect and grow your assets for generations to
-                    come.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <ShieldIcon className="h-6 w-6" />
-                    Risk Management
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    Our team helps you identify and mitigate financial risks to safeguard your investments.
-                  </p>
-                </CardContent>
-              </Card>
+              <Link href="/investment-advisory" className="group">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2 group-hover:underline">
+                      <BarChartIcon className="h-6 w-6" />
+                      Investment Advisory
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-500">
+                      Our expert advisors provide personalized investment strategies to help you grow your wealth.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/wealth-management" className="group">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2 group-hover:underline">
+                      <DollarSignIcon className="h-6 w-6" />
+                      Wealth Management
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-500">
+                      We offer comprehensive wealth management services to protect and grow your assets for generations to
+                      come.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+              <Link href="/risk-management" className="group">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2 group-hover:underline">
+                      <ShieldIcon className="h-6 w-6" />
+                      Risk Management
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-500">
+                      Our team helps you identify and mitigate financial risks to safeguard your investments.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
             </div>
           </div>
         </section>

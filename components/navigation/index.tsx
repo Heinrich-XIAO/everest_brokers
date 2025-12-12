@@ -10,8 +10,17 @@ export default function Navigation() {
         <span className="sr-only">Everest Brokers</span>
       </Link>
       <nav className="ml-auto hidden lg:flex gap-4 sm:gap-6">
-        <Link href="/#services" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-          Services
+        <Link href="/investment-advisory" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          Investment Advisory
+        </Link>
+        <Link href="/wealth-management" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          Wealth Management
+        </Link>
+        <Link href="/risk-management" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          Risk Management
+        </Link>
+        <Link href="/why-not-our-competitors" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          Why Not Our Competitors
         </Link>
         <Link href="/contact" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
           Contact
